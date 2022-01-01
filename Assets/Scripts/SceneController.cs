@@ -20,4 +20,9 @@ public class SceneController : MonoBehaviour
     {
         SceneLoader.Instance.LoadScene("Scene_MarkerBased");
     }
+
+    public void onARBookScene()
+    {
+        SceneLoader.Instance.LoadScene("ARBook_Scene");
+    }
 }
